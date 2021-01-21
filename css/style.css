@@ -8,9 +8,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+
+
 .container {
   width: 80%;
-  height: 690px;
+  /* height: 690px; */
+  height: 75vh;
   margin: 0 auto;
   background-color: #052f89;
 }
