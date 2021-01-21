@@ -8,14 +8,17 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
-
 .container {
   width: 80%;
-  /* height: 690px; */
   height: 75vh;
   margin: 0 auto;
   background-color: #052f89;
+}
+
+header {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #logo {
@@ -23,8 +26,16 @@ body {
   padding-left: 110px;
 }
 
-.container_top_left, .container_top_center, .container_top_right {
+.container_top_left, .container_top_center {
   float: left;
+}
+
+.container_top_right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
 }
 
 #nav_1 li, #nav_2 li {
